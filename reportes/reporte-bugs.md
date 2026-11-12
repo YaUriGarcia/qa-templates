@@ -19,21 +19,26 @@
 ---
 
 ## 1. Descripción del Problema
+
 [Una o dos frases explicando qué está fallando. Ej: al iniciar sesión con un usuario válido, el sistema arroja un error 500 y no permite el acceso.]
 
 ## 2. Pasos para Reproducir
+
 1. Ingresar a la URL: [https://...]
 2. Navegar a la pantalla de [nombre de la pantalla].
 3. Ingresar los siguientes datos: [Usuario: test@test.com / Pass: ****]
 4. Hacer clic en el botón "Iniciar Sesión".
 
 ## 3. Resultado Actual
+
 [Qué pasa realmente. Ej: el sistema muestra "Error interno del servidor" y la pantalla se queda en blanco.]
 
 ## 4. Resultado Esperado
+
 [Qué debería pasar según el requerimiento. Ej: el sistema permite el acceso y redirige al Dashboard del usuario.]
 
 ## 5. Evidencia Adjunta
+
 - [ ] Captura de pantalla
 - [ ] Video de reproducción
 - [ ] Logs del servidor / consola del navegador
