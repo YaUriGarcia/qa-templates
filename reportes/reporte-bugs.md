@@ -47,6 +47,7 @@
 *(Pega aquí los enlaces a las evidencias o adjunta los archivos)*
 
 ## 6. Notas Adicionales
+
 - **Frecuencia del fallo:** [Siempre / Intermitente (ej. 3 de 5 intentos)]
 - **Workaround (solución temporal):** [Si existe alguna forma de evitarlo, descríbela. Si no, "Ninguno"]
 - **Dispositivo / Navegador:** [Ej. Chrome v120, Windows 11 / iPhone 13, Safari]
