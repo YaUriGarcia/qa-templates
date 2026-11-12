@@ -28,6 +28,7 @@ qa-templates/
 ```
 
 ### `docs/` — Planeación y guías
+
 - `estrategia-de-pruebas.md`: enfoque general de calidad (pirámide de pruebas, niveles vs. tipos, CI/CD, Definition of Done).
 - `plan-pruebas-completo.md`: plantilla robusta para proyectos medianos/grandes.
 - `plan-pruebas-corto.md`: plantilla de 1 página para proyectos pequeños.
@@ -36,16 +37,19 @@ qa-templates/
 - `checklist-release.md`: lista go/no-go previa a liberar.
 
 ### `tests/` — Casos y datos de prueba
+
 - `casos-prueba.md`: plantilla para redactar casos de prueba (formato ficha y formato tabla).
 - `datos-ejemplo.md`: estructura sugerida para documentar los datos de prueba.
 - `sesion-exploratoria.md`: charter y notas de una sesión de pruebas exploratorias.
 - `matriz-trazabilidad.md`: relación requisito → casos → bugs.
 
 ### `reportes/` — Documentos generados durante la ejecución
+
 - `reporte-ejecucion.md`: resultados de un ciclo de pruebas.
 - `reporte-bugs.md`: plantilla estándar para reportar defectos.
 
 ### `ejemplos/`
+
 Plantillas ya llenadas con un proyecto demo (`ejemplo-login`) para ver cómo se usan en la práctica. Esta carpeta tiene su propio [`README.md`](ejemplos/ejemplo-login/README.md) que indica qué plantilla original corresponde a cada archivo (`plan-login.md`, `casos-login.md`, `bug-lgn-001.md` y `reporte-ejecucion-login.md`).
 
 ## Flujo de trabajo sugerido
