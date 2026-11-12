@@ -21,6 +21,7 @@ Todo caso de prueba debe llevar un ID único con el formato:
 `TC-[MOD]-[NNN]`
 
 **Ejemplos:**
+
 - `TC-LGN-001` (primer caso del módulo Login)
 - `TC-PAG-015` (caso 15 del módulo Pagos)
 - `TC-USR-003` (caso 3 de la API de Usuarios)
@@ -32,6 +33,7 @@ Si el caso es a nivel de API, indícalo en el campo "Nivel" de la plantilla en l
 `BUG-[MOD]-[NNN]`
 
 **Ejemplos:**
+
 - `BUG-LGN-001` (primer defecto del módulo Login)
 - `BUG-PAG-005` (defecto 5 de Pagos)
 
