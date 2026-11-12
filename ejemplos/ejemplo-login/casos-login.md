@@ -1,6 +1,6 @@
 # Casos de Prueba — Login
 
-### TC-LGN-001 — Inicio de sesión exitoso
+## TC-LGN-001 — Inicio de sesión exitoso
 
 | Campo | Valor |
 | :--- | :--- |
@@ -14,11 +14,13 @@
 | **Datos de Prueba** | Usuario: `user@test.com` / Contraseña: `User123!` |
 
 **Pasos:**
+
 1. Ingresar a la pantalla de Login.
 2. Escribir el usuario y la contraseña de prueba.
 3. Hacer clic en "Iniciar Sesión".
 
 **Resultado Esperado:**
+
 - El sistema valida las credenciales.
 - Se redirige al Dashboard principal.
 - Se muestra el mensaje "Bienvenido, [Nombre del Usuario]".
@@ -47,11 +49,13 @@
 | **Datos de Prueba** | Usuario: `user@test.com` / Contraseña: `incorrecta` |
 
 **Pasos:**
+
 1. Ingresar a la pantalla de Login.
 2. Escribir el usuario y una contraseña incorrecta.
 3. Hacer clic en "Iniciar Sesión".
 
 **Resultado Esperado:**
+
 - El sistema no permite el acceso.
 - Se muestra el mensaje "Usuario o contraseña incorrectos".
 
@@ -79,10 +83,12 @@
 | **Datos de Prueba** | Contraseña incorrecta enviada 3 veces. |
 
 **Pasos:**
+
 1. Enviar 3 veces la petición de login con contraseña incorrecta.
 2. Enviar una cuarta petición con la contraseña correcta.
 
 **Resultado Esperado:**
+
 - La cuenta queda bloqueada tras el tercer intento.
 - La cuarta petición es rechazada aunque la contraseña sea correcta.
 
