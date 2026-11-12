@@ -30,6 +30,7 @@ Validar que el módulo de **[nombre del módulo]** funcione según lo especifica
 ## 3. Alcance
 
 **Incluye:**
+
 - [Funcionalidad 1, ej. CRUD completo de la entidad]
 - [Validación de campos]
 - [Roles y permisos]
@@ -37,6 +38,7 @@ Validar que el módulo de **[nombre del módulo]** funcione según lo especifica
 - [Paginación y búsqueda]
 
 **No incluye:**
+
 - Desarrollo de nuevas funcionalidades
 - Cambios en la estructura de la base de datos
 - [Otro]
