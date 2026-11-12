@@ -1,5 +1,7 @@
 # QA Templates Repository
 
+![Markdown lint](https://github.com/YaUriGarcia/qa-templates/actions/workflows/markdown-lint.yml/badge.svg)
+
 Repositorio personal de plantillas para documentación de QA (Quality Assurance). El objetivo es tener un "kit de inicio" estandarizado para copiar, pegar y adaptar rápidamente en cualquier proyecto.
 
 ## Estructura del repositorio
