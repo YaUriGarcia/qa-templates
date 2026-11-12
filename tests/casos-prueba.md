@@ -32,11 +32,13 @@ Copia el bloque siguiente por cada caso.
 | **Datos de Prueba** | |
 
 **Pasos:**
+
 1. [Paso 1]
 2. [Paso 2]
 3. [Paso 3]
 
 **Resultado Esperado:**
+
 - [Resultado 1]
 - [Resultado 2]
 
