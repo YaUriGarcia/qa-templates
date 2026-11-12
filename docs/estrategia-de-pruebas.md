@@ -61,26 +61,31 @@ graph BT
 ### 3.3 Descripción de los niveles
 
 #### Pruebas Unitarias - Unit Tests (Base)
+
 - **Qué prueban:** funciones, métodos y clases de forma aislada.
 - **Herramientas:** Jest, Pytest, JUnit, NUnit.
 - **Regla:** deben ejecutarse en milisegundos. Ningún cambio se sube a un Pull Request (PR) sin sus pruebas unitarias correspondientes.
 
 #### Pruebas de Componentes - Component Tests (solo modelo de 4 niveles)
+
 - **Qué prueban:** un módulo o componente completo de forma aislada, con sus dependencias externas simuladas (mocks/stubs).
 - **Herramientas:** Testing Library, Storybook, Vitest, TestContainers.
 - **Regla:** validan el comportamiento del componente como unidad funcional, sin depender de otros servicios reales.
 
 #### Pruebas de Integración y API - API / Integration Tests (Medio)
+
 - **Qué prueban:** la comunicación entre módulos, bases de datos y endpoints (REST/GraphQL).
 - **Herramientas:** Postman/Newman, Supertest, RestAssured, Pact (pruebas de contrato).
 - **Regla:** validan que el backend y sus conexiones funcionen correctamente sin depender de la interfaz gráfica.
 
 #### Pruebas E2E / UI - UI / E2E Tests (Cima)
+
 - **Qué prueban:** flujos completos desde la perspectiva del usuario (happy paths y flujos de negocio críticos). Pueden cubrir pruebas de sistema o de aceptación.
 - **Herramientas:** Cypress, Playwright, Selenium.
 - **Regla:** solo se automatiza lo estrictamente necesario. Si la interfaz cambia mucho, estas pruebas se vuelven frágiles y caras de mantener.
 
 #### Pruebas de Humo - Smoke Tests (transversales)
+
 - **Qué prueban:** que el sistema esté "vivo" y que los flujos más básicos funcionen.
 - **Herramientas:** Cypress (flujos básicos), Postman (validar que los endpoints principales respondan 200 OK).
 - **Regla:** son la primera línea de defensa tras un deploy. Si fallan, se hace rollback inmediato.
