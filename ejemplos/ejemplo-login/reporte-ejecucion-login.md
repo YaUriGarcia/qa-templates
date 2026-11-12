@@ -11,9 +11,11 @@
 ---
 
 ## 1. Resumen Ejecutivo
+
 Se ejecutaron los casos del módulo de Login. Se encontró un defecto de severidad baja en el mensaje de bienvenida y un caso quedó bloqueado por una caída del entorno QA. No hay bloqueadores para el release.
 
 ## 2. Alcance de la ejecución
+
 - **Probado:** inicio de sesión exitoso y con contraseña incorrecta.
 - **No probado:** bloqueo por intentos fallidos (entorno caído).
 
@@ -53,6 +55,7 @@ Se ejecutaron los casos del módulo de Login. Se encontró un defecto de severid
 | BUG-LGN-001 | El mensaje de bienvenida muestra el correo en lugar del nombre | Baja | Media | Nuevo |
 
 ## 6. Riesgos y Bloqueos
+
 - **Bloqueos:** el entorno QA estuvo caído y no permitió ejecutar TC-LGN-003.
 - **Riesgos:** la protección de bloqueo de cuenta quedó sin validar.
 
