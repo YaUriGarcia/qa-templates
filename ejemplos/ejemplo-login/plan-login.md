@@ -15,11 +15,13 @@ Validar que el inicio de sesión funcione con credenciales válidas e inválidas
 ## 2. Alcance
 
 **Incluye:**
+
 - Inicio de sesión con credenciales válidas e inválidas
 - Mensajes de error y bloqueo tras 3 intentos fallidos
 - Mensaje de bienvenida y redirección al Dashboard
 
 **No incluye:**
+
 - Registro de usuarios
 - Recuperación de contraseña
 
@@ -36,7 +38,7 @@ Validar que el inicio de sesión funcione con credenciales válidas e inválidas
 
 | Entorno | URL | Propósito |
 |---|---|---|
-| Staging / QA | https://qa.tienda-demo.example | Ejecución de pruebas |
+| Staging / QA | <https://qa.tienda-demo.example> | Ejecución de pruebas |
 
 ## 5. Datos y herramientas
 
