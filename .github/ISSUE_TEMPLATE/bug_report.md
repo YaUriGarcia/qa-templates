@@ -17,25 +17,25 @@ assignees: ''
 
 ## Descripción del problema
 
-
 ## Pasos para reproducir
+
 1.
 2.
 3.
 
 ## Resultado actual
 
-
 ## Resultado esperado
 
-
 ## Evidencia
+
 - [ ] Captura de pantalla
 - [ ] Video
 - [ ] Logs / consola
 - [ ] Request / response de API
 
 ## Notas adicionales
+
 - **Frecuencia:** Siempre / Intermitente
 - **Workaround:**
 - **Dispositivo / navegador:**
