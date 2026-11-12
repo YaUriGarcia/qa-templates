@@ -19,26 +19,32 @@
 ---
 
 ## 1. Descripción del Problema
+
 Tras iniciar sesión con un usuario cuyo nombre contiene un espacio, el mensaje de bienvenida muestra el correo electrónico en lugar del nombre.
 
 ## 2. Pasos para Reproducir
-1. Ingresar a https://qa.tienda-demo.example/login.
+
+1. Ingresar a <https://qa.tienda-demo.example/login>.
 2. Ingresar el usuario `user@test.com` y la contraseña `****`.
 3. Hacer clic en "Iniciar Sesión".
 
 ## 3. Resultado Actual
-El Dashboard muestra "Bienvenido, user@test.com".
+
+El Dashboard muestra "Bienvenido, <user@test.com>".
 
 ## 4. Resultado Esperado
+
 El Dashboard debe mostrar "Bienvenido, [Nombre del Usuario]".
 
 ## 5. Evidencia Adjunta
+
 - [x] Captura de pantalla
 - [ ] Video de reproducción
 - [ ] Logs del servidor / consola del navegador
 - [ ] Archivo JSON / request / response de API
 
 ## 6. Notas Adicionales
+
 - **Frecuencia del fallo:** Siempre con nombres de más de 15 caracteres o con espacios.
 - **Workaround:** Ninguno.
 - **Dispositivo / Navegador:** Chrome v120, Windows 11.
