@@ -11,6 +11,7 @@
 ---
 
 ## 1. Resumen Ejecutivo
+
 [Un párrafo breve con el estado general. Ej: se completó la ejecución de los casos críticos del módulo de pagos. Se encontraron 2 bugs de severidad alta que bloquean el pase a producción. El resto de la funcionalidad opera con normalidad.]
 
 ## 2. Alcance de la ejecución
@@ -41,6 +42,7 @@
 | Baja | | |
 
 ## 4. Detalle de la Ejecución
+
 *(Resume por módulo o lista los casos si son pocos)*
 
 | ID Caso | Módulo | Descripción breve | Resultado | Bug Asociado |
